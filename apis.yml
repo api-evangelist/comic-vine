@@ -1,0 +1,32 @@
+aid: comic-vine
+name: Comic Vine
+description: "Comics"
+url: https://comicvine.gamespot.com/api/documentation
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Games & Comics"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Games And Comics
+  - Public APIs
+apis:
+  - name: Comic Vine
+    description: "Comics"
+    humanURL: https://comicvine.gamespot.com/api/documentation
+    baseURL: https://comicvine.gamespot.com/api/documentation
+    tags:
+      - Games And Comics
+    properties:
+      - type: Documentation
+        url: https://comicvine.gamespot.com/api/documentation
+common:
+  - type: Website
+    url: https://comicvine.gamespot.com/api/documentation
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
