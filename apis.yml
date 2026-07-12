@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://comicvine.gamespot.com/api/documentation
 common:
+  - type: DomainSecurity
+    url: security/comic-vine-domain-security.yml
   - type: Website
     url: https://comicvine.gamespot.com/api/documentation
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://comicvine.gamespot.com/feeds/news/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
